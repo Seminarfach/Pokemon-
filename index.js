@@ -1,8 +1,8 @@
 const canvas = document.querySelector('canvas'); // definiert Variable mit konstantem Wert 
 const ctx = canvas.getContext('2d'); // -"- , vorbestimmt 2d Zeichenelemente für das Canvas
 
-ctx.canvas.width = window.innerWidth; // Breite des Canvas
-ctx.canvas.height = window.innerHeight; // Höhe des Canvas
+canvas.width = 1300px; // Breite des Canvas
+canvas.height = 700px; // Höhe des Canvas
 
 const collisionsMap = [] // Erstellt neues Array
  
